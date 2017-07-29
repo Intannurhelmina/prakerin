@@ -6,10 +6,10 @@
 	Nama Ayah :{{$key->nama_ibu}}<br>
 	Umur ibu : {{$key->umur_ibu}}<br>
 	Umur ayah :{{$key->umur_ayah}}<br>
-	@foreach ($data->siswa as $key)
-	<li>{{ $key->nama}}</li>
+	@foreach ($key->siswa as $data)
+	<li>{{ $data->nama}}</li>
 	@endforeach
 	<hr>
-@endsection
+@endforeach
 
 @endsection
