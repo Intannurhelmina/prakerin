@@ -1,4 +1,3 @@
-
 @extends('layouts.master')
 @section('isi')
 <div class="row">

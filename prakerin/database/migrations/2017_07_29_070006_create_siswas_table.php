@@ -20,6 +20,7 @@ class CreateSiswasTable extends Migration
             $table->foreign('orangtua_id')->references('id')->on('orangtuas')
                   ->onUpdate('cascade')->onDelete('cascade');
             $table->integer('umur');
+            $table->string('jk');
             $table->text('alamat');
             $table->timestamps();
         });
